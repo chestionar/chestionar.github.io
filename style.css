@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(32,32,32);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(217,217,217);
+  }
+  .titlu{
+    text-align: center;
+  }
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+  }
+  input {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid;
+    border-color: #000000;
+    border-radius: 7px;
+    width: 200px;
+    padding: 15px 5px; 
+    background-color: rgba(217, 217, 217, 0.164);
+    color: rgb(217,217,217);
+  }
+  .bt{
+    border-radius: 7px;
+    padding: 10px 30px;
+    transition-duration: 0.2s;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 6px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(217,217,217);
+  } 
+  span {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .bt:hover {
+    transform: scale(1.5);
+  }
+  .big{
+    font-size: 60px;
+  }
+  .big2{
+    font-size: 48px;
+  }
+  .nr{
+    font-family: 'Martian Mono', monospace;
+    color: rgb(214,214,214);
+  }
+  
+  .logo{
+    border-radius: 12px;
+  }
+  #pop{
+    font-size: 24px;
+  }
+  .popup-contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .popup{
+    border: 3px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(217,217,217);
+    background-color: rgb(32,32,32);
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 400px;
+    height: 250px;
+  
+    display: none;
+  }
+  .stream{
+    border: none;
+    border-radius: 12px;
+  }
+  .ceas{
+    text-align: right;
+  }
+  .nume{
+    text-align: left;
+    float: left;
+  }
+  a{
+    color: rgb(217,217,217);
+  }
