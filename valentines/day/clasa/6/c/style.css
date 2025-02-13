@@ -1,0 +1,73 @@
+body{
+    background-color: #edadeb;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255,255,255);
+    font-size: 24px;
+  }
+  .titlu{
+    text-align: center;
+  }
+  .big{
+    font-size: 60px;
+  }
+  .big2{
+    font-size: 48px;
+  }
+  .ultrabig{
+    font-size: 175px;
+  }
+  .btno{
+    border-radius: 7px;
+    padding: 10px 30px;
+    transition-duration: 0.2s;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 6px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    z-index: 1;
+  } 
+
+  .btyes{
+    border-radius: 7px;
+    padding: 10px 30px;
+    transition-duration: 1s;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 6px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(0, 255, 0);
+    z-index:2;
+  } 
+.butonfelicitare{
+  border: none;
+  background-color: rgb(0,0,0,0);
+}
+.scrisoare{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  color:blue
+}
+.backscris{
+  z-index: 10;
+  position: relative;
+}
+.scris{
+  z-index: 200;
+  position: absolute;
+  top: 0px;
+}
+.smol{
+  font-size: 18px;
+}
